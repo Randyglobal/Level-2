@@ -7,8 +7,8 @@ var a = 'a';
 var b = 9;
 var c = a + 9 + 10;//ab (this is type casting: which is converting data from one datatype to datatype but its not supported for all casses)
 
-console.log('This is C = ', C);
-alert('C is, '+ a)
+console.log('This is C = ', c);
+alert('C is, '+ c)
 
 /**
  * var trick = + '100'; to convert from trick to number

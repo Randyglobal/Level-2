@@ -1,6 +1,6 @@
 /**
  * Write a program that does the following
- * Gets th followinginfo from different user;
+ * Gets th following info from different user;
  * age
  * height
  * weight
@@ -12,6 +12,7 @@
  * the heaviest user 
  * 
  */
+alert("Welcome to THE GAME where you win or loose :) ");
 var firstUserage = prompt('Please Enter first Age');
 var firstHeight = prompt('Please Enter first Height');
 var firstWeight = prompt('Please Enter first weight');
@@ -25,7 +26,7 @@ var thirdUserage = prompt('Please Enter third Age');
 var thirdHeight = prompt('Please Enter third Height');
 var thirdWeight = prompt('Please Enter third weight');
 
-if (firstUserage > secondUserage){
+if (firstUserage > secondUserage || firstUserage > thirdUserage){
     alert('firstUserage is greater');
 }if (secondUserage > thirdUserage) {
     alert('secondUserage is greater');
@@ -54,24 +55,4 @@ if (firstWeight > secondWeight){
 } else {
     alert('third weight is greater');
 }
-// {
-//     alert('secondUserage is greater');
-// }
 
-// if (secondUserage > thirdUserage ){
-//     alert('secondUserage is greater');
-// }else {
-//     alert('thirdUserage is greater');
-// }
-
-// if (firstHeight > secondHeight ){
-//     alert('firstHeight is greater');
-// }else{
-//     alert('secondHeight is greater')
-// }
-
-// if (firstWeight > secondWeight ){
-//     alert('firstWeight is greater');
-// }else{
-//     alert('secondWeight is greater')
-// }

@@ -32,5 +32,4 @@ var i;
 for (i = 0; i< numSquare.length; i++){
    numSquare[i] = numSquare[i] * numSquare[i];
 }
-
 alert(numSquare);

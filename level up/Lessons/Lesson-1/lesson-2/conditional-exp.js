@@ -17,10 +17,14 @@ if (user !== null){
     alert('Hello, ' + user + 'Hope you good');
     console.log('condition is true =>', condition);
 }else{
-    alert('Hello, Ghost');
+    alert('Hello, king');
     console.log('condition is false =>', condition);
 }
 // console.log('The user is', user);
 // alert('Hello, ' + user + 'Hope you good')
 //alert does not take upto 2 variable reason why we used the + sign to link the 2
+
+
+//Rather than local storage
+// var randy = document.getElementById('class').innerHTML = "Hello" + user + "Welcome"
 

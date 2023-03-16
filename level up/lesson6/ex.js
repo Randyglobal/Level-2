@@ -66,29 +66,38 @@ alert('age is,' + calculateAge(40));
 function isEven(num) {
     if (typeof num !== 'number') {
         alert('this is wrong');
-        throw ('This is inappropriet!!!');
+        // throw ('This is inappropriet!!!');
     }
     if (num % 2 == 0) {
         return true;
- return false;
+ 
     }
-   
+    return false;
 }
 alert(isEven("5h"));
 // isEven()
 
-const isMax = (a, b) => {
-    if (a > b) return a;
-    return b;
-}
+// const isMax = (a, b) => {
+//     if (a > b) return a;
+//     return b;
+// }
 
-alert(isMax(6, 90));
+// alert(isMax(6, 90));
+
+function isMax(a, b){
+    if (a > b){
+        return a
+    }
+    return b
+}
+console.log("This is max",isMax(19, 90));
 
 
 //function that returns middle elements and its index in an array
 // arra = [1,2,3,4,5,6,7] = 7;
 // arra[4]=4
 
+//Middle Element
 const getMiddle = (array) => {
     let oddMid = Math.floor(array.length / 2);// try tracy's method
     let evenMid = ((array.length) / 2);

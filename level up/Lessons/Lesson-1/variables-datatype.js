@@ -1,4 +1,4 @@
-//keywords and examples
+ //keywords and examples
 /* var, let, const, for, while, object, function, if, class, exrtends,import, export, else, default, delete, in, with
 of, do*/
 
@@ -42,7 +42,7 @@ console.log('Modulo is ', age % amount);
 
 //LOGICAL OPERATORS
 //(?, ??, ||, &&) LOGICA OR (||)
-//LOGICAL AND(&&)
+//LOGICAL AND(&&)\
 ///NULL COALESCING OPERATOR (??)
 //(?) => TENARY OPERATOR TO CHECK IF THE VALUE IS UNDEFINED 
 
@@ -54,3 +54,4 @@ var isPresent = true || false;
 var puffpuff = true;
 var isAlive = puffpuff ? 'he is alive' : 'He is Dead!';
 //var isAlive = puffpuff = true? 'He is alive' : 'He is Dead'
+ 
